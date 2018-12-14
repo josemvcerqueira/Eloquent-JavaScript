@@ -31,12 +31,12 @@ let grid = ""
 
 let width;
 do {
-	width = Number( prompt( "Provide a number for the width./ne.g. 2" ) )
+	width = Number( prompt( "Provide a number for the width.\ne.g. 2" ) )
 } while ( !width );
 
 let height;
 do {
-	height = Number( prompt( "Provide a number for the height./ne.g. 2" ) )
+	height = Number( prompt( "Provide a number for the height.\ne.g. 2" ) )
 } while ( !height );
 
 for ( y = 0; y < height; y += 1 ) {
